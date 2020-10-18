@@ -105,8 +105,7 @@ var tunnel = module.exports = {
         })
     },
     close: function(){
-        console.log(tunnel._conn)
-        // tunnel._redis.end()
-        // tunnel._con.end()
+        tunnel._redis.end()
+        tunnel._conn.end()
     }
 }
