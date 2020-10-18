@@ -1,9 +1,9 @@
 # Redis-SSH2
-This project is base on 【Node.js】SSH経由でRedisへ接続する(https://qiita.com/uki00a/items/4dcc13ce571340d78ec1)
-Sets up a Redis connection inside an SSH tunnel.
-This is practical when you want to reach a Redis which is only accessible through a webserver.
-Even if the Redis server is not located on the webserver itself.
-It avoids denied from Redis when we use localhost.
+This project is based on [【Node.js】SSH経由でRedisへ接続する](https://qiita.com/uki00a/items/4dcc13ce571340d78ec1)<br>
+Sets up a Redis connection inside an SSH tunnel.<br>
+This is practical when you want to reach a Redis which is only accessible through a webserver.<br>
+Even if the Redis server is not located on the webserver itself.<br>
+It avoids denied from Redis when we use localhost.<br>
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/grrr-amsterdam/Redis-ssh.svg)](https://greenkeeper.io/)
 
