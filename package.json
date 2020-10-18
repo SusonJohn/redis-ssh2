@@ -1,0 +1,33 @@
+{
+  "name": "redis-ssh2",
+  "version": "1.0.1",
+  "description": "Execute Redis commands over an ssh tunnel.And conncet to Redis use user's config not use in localhost.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SusonJohn/redis-ssh2.git"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "ioredis": "^4.17.3",
+    "net": "^1.0.2",
+    "ssh2": "^0.5.5"
+  },
+  "keywords": [
+    "redis",
+    "remote",
+	"ioredis",
+	"net",
+    "tunnel",
+    "ssh2"
+  ],
+  "author": "Suson <591016130@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SusonJohn/redis-ssh2/issues"
+  },
+  "homepage": "https://github.com/SusonJohn/redis-ssh2#readme"
+}
