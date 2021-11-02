@@ -1,6 +1,6 @@
 {
   "name": "redis-ssh2",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Execute Redis commands over an ssh tunnel.And conncet to Redis use user's config not use in localhost.",
   "main": "index.js",
   "scripts": {
