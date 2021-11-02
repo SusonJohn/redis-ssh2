@@ -32,7 +32,7 @@ Redis.connect(
     },
     {
         host: 'my-db-host.com',
-        user: 'me-db',
+        port: 'me-port',
         password: 'secret',
         db: 'my-db-name'
     }
@@ -41,7 +41,7 @@ Redis.connect(
     client.get('values', (err, reply) => {
         if (err) throw err
         console.log(results);
-        Redisssh.close()
+        Redis.close()
     })
 })
 .catch(err => {
@@ -62,7 +62,7 @@ Redis.connect(
     },
     {
         host: 'my-db-host.com',
-        user: 'me-db',
+        port: 'me-port',
         password: 'secret',
         db: 'my-db-name'
     }
@@ -71,7 +71,7 @@ Redis.connect(
     client.get('SELECT * FROM `users`', (err, reply) => {
         if (err) throw err
         console.log(results);
-        Redisssh.close()
+        Redis.close()
     })
 })
 .catch(err => {
